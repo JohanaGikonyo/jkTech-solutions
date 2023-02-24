@@ -1,6 +1,6 @@
 .nav{
-    display: flex;
-    display: inline;
+    /* display: flex; */
+  display: inline;
     border-radius: 5px;
    
    
@@ -8,12 +8,15 @@
 }
 .nav >a{
     border-radius: 2px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 10px;
     text-decoration: none;
     background-color: gold;
     cursor: cell;
-    border: 2px ;
+    border: 2px solid gold;
+
+
+
 }
 .nav >a:hover{
     background-color: black;
