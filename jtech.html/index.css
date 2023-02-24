@@ -1,0 +1,163 @@
+.nav{
+    display: flex;
+    display: inline;
+    border-radius: 5px;
+   
+   
+    
+}
+.nav >a{
+    border-radius: 2px;
+    justify-content: space-between;
+    padding: 10px;
+    text-decoration: none;
+    background-color: gold;
+    cursor: cell;
+    border: 2px ;
+}
+.nav >a:hover{
+    background-color: black;
+    color: pink;
+
+}
+.img{
+    width: 120px;
+    margin: 0 0 15px 20px;
+    text-align: center;
+    float: right;
+    padding: 15px;
+    border-radius: solid blue;
+}
+.intro{
+    color: white;
+    background: linear-gradient(90deg , saddlebrown ,sandybrown,   lightsalmon, lightgreen );
+}
+body{
+    padding: 5%;
+    max-width: 100%;
+}
+.animation{
+    width: 50%;
+    height: 200px; 
+    background-image: url('./images/pngegg\ \(3\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 60s;
+    animation-delay: 20s;
+    animation-iteration-count: infinite;
+    border: 5px solid red;
+    
+}
+ @keyframes anim{
+10%{background-image: url('./images/pngegg\ \(20\).png');}
+20%{background-image: url('./images/pngegg\ \(1\).png');}
+40%{background-image: url('./images/pngegg.png');}
+60%{background-image: url('./images/pngegg\ \(23\).png');}
+80%{background-image: url('./images/pngegg\ \(6\).png');}
+100%{background-image: url('./images/pngegg\ \(9\).png');}
+
+}
+.wel{
+
+display: flex;
+justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-emphasis: none;
+    text-shadow: 50px;
+    text-align: center;
+    background-color: aqua;
+    animation-name: wele;
+    animation-duration: 10s;
+width: 150px;
+animation-delay: 10s;
+animation-iteration-count: infinite;
+}
+@keyframes wele{
+    0%{background-color: aqua;} 
+    25%{background-color: olive;}
+    50%{background-color: pink;}
+    75%{background-color: rgb(240, 140, 162);}
+    100%{background-color: lightsalmon;}
+    125%{background-color: tomato;}
+
+}
+.desc{
+    text-decoration: none;
+  background-color: lightgoldenrodyellow;
+}
+.location{
+    background-color: pink;
+    color: white;
+}
+.footer{
+    background-color: darkseagreen;
+    text-decoration: none;
+    color: wheat;
+}
+footer > a{
+    text-decoration: none;
+
+}
+.world{
+    width: 200px;
+    background-image: url('./images/pngegg\ \(30\).png');
+    animation-name: wo;
+    animation-duration: 10s;
+    animation-delay: 20s;
+    animation-iteration-count: infinite;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+@keyframes wo{
+    from{background-image: url('./images/pngegg\ \(30\).png');}
+    to{background-image: url('./images/pngegg\ \(29\).png');}
+}
+.quotes{
+    width: 400px;
+    height: 400px;
+   
+    background-image: url('./images/pngegg\ \(53\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: quotes;
+    animation-duration: 100s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+   
+
+}
+@keyframes quotes{
+    25%{background-image: url('./images/pngegg\ \(53\).png');}
+   40%{background-image: url('./images/pngegg\ \(66\).png');}
+    60%{background-image: url('./images/pngegg\ \(71\).png');}
+    85%{background-image: url('./images/pngegg\ \(67\).png');}
+   100%{background-image: url('./images/pngegg\ \(72\).png');}
+}
+fieldset{
+    display: flex;
+    display: block;
+    flex-wrap: wrap;
+
+}
+fieldset >div{
+    display: inline;
+    padding-right: 75px;
+    color: aliceblue;
+    background-color: darkblue;
+}
+fieldset >div:hover{
+    background-color: darkturquoise;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+
