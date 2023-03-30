@@ -23,8 +23,28 @@
     color: pink;
 
 }
+.drops{
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+}
+.drops>a{
+    text-decoration: none;
+    padding: 5px;
+    height: 15px;
+    color: white;
+    
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+}
+.drops>a:hover{
+    background-color: darkgrey;
+    color: red;
+}
 .img{
-    width: 120px;
+    width: 100px;
+    height: 200px;
     margin: 0 0 15px 20px;
     text-align: center;
     float: right;
@@ -34,6 +54,15 @@
 .intro{
     color: white;
     background: linear-gradient(90deg , saddlebrown ,sandybrown,   lightsalmon, lightgreen );
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: ;
+    
+}
+.intro>h4{
+    padding-inline: 25px;
+    
 }
 body{
     padding: 5%;
@@ -91,15 +120,8 @@ animation-iteration-count: infinite;
     text-decoration: none;
   background-color: lightgoldenrodyellow;
 }
-.location{
-    background-color: pink;
-    color: white;
-}
-.footer{
-    background-color: darkseagreen;
-    text-decoration: none;
-    color: wheat;
-}
+
+
 footer > a{
     text-decoration: none;
 
@@ -143,21 +165,7 @@ footer > a{
     85%{background-image: url('./images/pngegg\ \(67\).png');}
    100%{background-image: url('./images/pngegg\ \(72\).png');}
 }
-fieldset{
-    display: flex;
-    display: block;
-    flex-wrap: wrap;
 
-}
-fieldset >div{
-    display: inline;
-    padding-right: 75px;
-    color: aliceblue;
-    background-color: darkblue;
-}
-fieldset >div:hover{
-    background-color: darkturquoise;
-}
 
 .head{
     display: flex;
